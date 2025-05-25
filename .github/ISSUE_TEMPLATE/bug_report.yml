@@ -6,48 +6,6 @@ body:
       value: |
         Thank you for taking your time to fill out a bug report. Remember to fill out all fields including the title above. 
         An issue that is not properly filled out will be closed.
-  - type: dropdown
-    id: client
-    attributes:
-      label: What client do you play on?
-      options:
-      - enGB
-      - enUS
-      - deDE
-      - esES
-      - esMX
-      - frFR
-      - ruRU
-      - Other
-    validations:
-      required: true
-  - type: dropdown
-    id: faction
-    attributes:
-      label: Faction
-      options:
-      - Alliance
-      - Horde
-      - Both
-    validations:
-      required: true
-  - type: dropdown
-    id: phase
-    attributes:
-      label: "Content Phase:"
-      options:
-      - Generic
-      - 1-19
-      - 20-29
-      - 30-39
-      - 40-49
-      - 50-59
-      - '60'
-      - 61-64
-      - 65-69
-      - '70'
-    validations:
-      required: true
   - type: textarea
     id: current
     attributes:
@@ -69,8 +27,8 @@ body:
     attributes:
       label: Source
       description: |
-        HEADS UP: include sources in your bug report which are relevant to the 3.3.5a game version.
-        We will close any bug like "X should be changed to Y" reported without sources.
+        Provide us with source comments, videos, blue posts. Things officially confirm your issue. 
+        Example: A video of showing how this NPC should behave in 3.3.5a version. 
     validations:
       required: true
   - type: textarea
@@ -107,7 +65,7 @@ body:
     attributes:
       label: AC rev. hash/commit
       value: |
-       https://github.com/chromiecraft/azerothcore-wotlk/commit/5f020de5466e3894914fe424229c4b9f3d138b2f
+       https://github.com/chromiecraft/azerothcore-wotlk/commit/6de87af4d25c90679971153f8c6bff201dadffe9
     validations:
       required: true
   - type: textarea
